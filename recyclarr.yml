@@ -27,7 +27,7 @@
 sonarr:
   sonarr-main:
     base_url: !secret sonarr_url
-    api_key: !secret sonarr_api
+    api_key: !secret sonarr_apikey
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
     quality_definition:
